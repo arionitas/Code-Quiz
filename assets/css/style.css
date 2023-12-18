@@ -117,15 +117,18 @@ header nav ul li a:hover {
 
 /* Answer Styles */
 .answer-choice{
-   padding: 10px;
-   color: #000000;
-   background-color: var(--secondary-color);
-   margin: 10px 0;
-   border-radius: 10px;
-   width: 200px;
+   background-color: #04AA6D;
+   border-radius: 80%;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 2px 2px;
 }
 .answer-choice:hover{
-   background-color: var(--tertiary-color);
+   background-color: var(--secondary-color);
 }
 .status{
    text-align: center;
