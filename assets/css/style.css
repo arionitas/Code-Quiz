@@ -12,6 +12,8 @@
 }
 body{
     font-family: "Catcheye-webfont", Arial, sans-serif;
+    background-image:url(../images/butterfly.png);
+    background-size: contain;
 }
 
 
@@ -49,7 +51,7 @@ header h1{
     font-size: 36px;
     color: var(--primary-color);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
 header a {
     color: var(--primary-color);
@@ -69,7 +71,7 @@ header nav ul li a{
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(162, 0, 255, 0.5);
 }
 header nav ul li a:hover {
     background: var(--secondary-color);
@@ -100,7 +102,7 @@ header nav ul li a:hover {
 }
 .question-panel{
    position: absolute;
-   background-color: #ffffff;
+   background-color: var(--tertiary-color);
    max-width: 700px;
    width: 90%;
 }
@@ -116,7 +118,7 @@ header nav ul li a:hover {
 /* Answer Styles */
 .answer-choice{
    padding: 10px;
-   color: #ffffff;
+   color: #000000;
    background-color: var(--secondary-color);
    margin: 10px 0;
    border-radius: 10px;
@@ -131,7 +133,7 @@ header nav ul li a:hover {
 .status-correct{
    font-size: 25px;
    text-align: center;
-   border-bottom: 1px solid gray;
+   border-bottom: 1px solid rgb(255, 0, 0);
    color: green;
    font-weight: bold;
 }
@@ -182,7 +184,7 @@ form input {
  padding: 10px;
  border-radius: 10px;
  background-color: var(--secondary-color);
- color: #ffffff;
+ color: #000000;
 }
 
 .btn:hover {

@@ -38,9 +38,6 @@ var questionObj = [
     },
 ]
 
-// Display opening instructions
-
-quizEl.textContent = "Answer as many of the following code-related questions within the time limit. Incorrect answers will reduce your score / time by ten seconds!";
 
 // Timer function set at 60 seconds
 
@@ -49,7 +46,7 @@ function timer() {
     startBtn.setAttribute("style", "display: none"); // Hide start button on start
 
     timeInterval = setInterval(function () {
-        
+
         // While timer is running
 
         if (timeLeft > -1) {
