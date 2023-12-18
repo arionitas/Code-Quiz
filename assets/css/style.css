@@ -11,8 +11,25 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Catcheye-webfont", Arial, sans-serif;
 }
+
+
+@font-face {
+   font-family: "catcheye-webfont";
+   src: url('../fonts/coolvetica_rg_it-webfont.woff2') format('woff2'),
+        url('../fonts/coolvetica_rg-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-synthesis: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+
+
+
 section {
     padding: 30px;
 }
