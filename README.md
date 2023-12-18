@@ -46,8 +46,13 @@ Code Quiz Generator using HTML, CSS and JS
 
 ## Deployed Project Link
 
+https://arionitas.github.io/Code-Quiz/
+
 
 ## Usage 
+
+![Screenshot (1342)](https://github.com/arionitas/Code-Quiz/assets/60946518/9727b148-d266-40a6-8fb8-72203244f6fd)
+![Screenshot (1341)](https://github.com/arionitas/Code-Quiz/assets/60946518/1b1915a2-7689-4ecd-80b5-9ae12e8e46aa)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
